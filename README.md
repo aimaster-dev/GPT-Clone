@@ -3,12 +3,12 @@
 Chat AI Flask + React + Mysql , with Flask REST API with sqlalchemy mysql where there is a login and registration and also you can login and register with google where each user can create chats to interact with artificial intelligence, in this case artificial intelligence is not implemented, but all the operation that I think is done at the time of implementing chats with AI is implemented, this saving the chats in databases where each user can delete and create chats at any time.
 </p>
 
-<p align="center">
+
 
   [![gif](Chat-how-use)](https://youtu.be/sRkLmOVfKHo)
 
 
-</p>
+
 
 
 ___
