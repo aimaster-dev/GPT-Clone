@@ -5,7 +5,8 @@ Chat AI Flask + React + Mysql , with Flask REST API with sqlalchemy mysql where 
 
 <p align="center">
 
-  ![gif](README-images\chat-video.gif)
+  [![gif](Chat-how-use)](https://youtu.be/sRkLmOVfKHo)
+
 
 </p>
 
