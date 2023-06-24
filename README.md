@@ -5,9 +5,7 @@ Chat AI Flask + React + Mysql , with Flask REST API with sqlalchemy mysql where 
 
 
 
-  [![gif](Chat-how-use)](https://youtu.be/sRkLmOVfKHo)
-
-
+[![](https://markdown-videos.deta.dev/youtube/sRkLmOVfKHo)](https://youtu.be/sRkLmOVfKHo)
 
 
 
