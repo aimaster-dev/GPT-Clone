@@ -1,0 +1,64 @@
+.darkTheme {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .darkTheme h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #8fceb5;
+  }
+  
+  .darkTheme h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .darkTheme input[type="text"],
+  .darkTheme input[type="email"],
+  .darkTheme input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Agregado para redondear los inputs */
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  
+  .darkTheme button {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .darkTheme button:hover {
+    background-color: #72bbdd;
+  }
+  
+  .darkTheme a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .darkTheme a:hover {
+    color: #c1e966;
+  }
+  
+  .darkTheme p.errorMessage {
+    color: red;
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 30ch;
+    overflow-wrap: break-word;
+  }
+  

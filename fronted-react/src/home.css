@@ -1,0 +1,34 @@
+.darkTheme {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+   
+  }
+  
+  .darkTheme h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: aquamarine;
+  }
+  
+  .darkTheme button {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 8px;
+  }
+  
+  .darkTheme button:hover {
+    background-color: #72bbdd;
+  }
+  

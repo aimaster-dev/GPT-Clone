@@ -1,0 +1,74 @@
+.loginContainer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #91e3c2;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  
+  .loginButton {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  
+  .loginButton:hover {
+    background-color: #72bbdd;
+  }
+  
+  .registerLink {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .errorMessage {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .themeButton {
+    background-color: #fff;
+    color: #222;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .themeButton:hover {
+    background-color: #cccccc;
+  }
+  
+  .registerLink:hover {
+    color: #c1e966;
+  }
+  

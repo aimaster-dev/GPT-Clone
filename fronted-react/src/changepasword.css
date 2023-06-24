@@ -1,0 +1,70 @@
+.darkTheme {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .darkTheme h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  
+  .darkTheme button {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 8px;
+  }
+  
+  .darkTheme button:hover {
+    background-color: #72bbdd;
+  }
+  
+  .darkTheme form {
+    margin-top: 20px;
+  }
+  
+  .darkTheme h3 {
+    margin-top: 10px;
+  }
+  
+  .darkTheme input[type="text"],
+  .darkTheme input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  
+  .darkTheme button.modify {
+    background-color: #72bbdd;
+    color: #fff;
+  }
+
+  .darkTheme button.modify:hover {
+    background-color: #1d5e7b;
+   
+  }
+
+
+  .errorMessage{
+      color: red;
+      margin-top: 10px;
+      text-align: justify;
+      max-width: 30ch;
+      overflow-wrap: break-word;
+    
+  }
+  
