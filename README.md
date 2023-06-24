@@ -3,10 +3,10 @@
 Chat AI Flask + React + Mysql , with Flask REST API with sqlalchemy mysql where there is a login and registration and also you can login and register with google where each user can create chats to interact with artificial intelligence, in this case artificial intelligence is not implemented, but all the operation that I think is done at the time of implementing chats with AI is implemented, this saving the chats in databases where each user can delete and create chats at any time.
 </p>
 
-
-
-[![](https://markdown-videos.deta.dev/youtube/sRkLmOVfKHo)](https://youtu.be/sRkLmOVfKHo)
-
+video how use :  [url video](https://youtu.be/sRkLmOVfKHo) 
+<p align="center">
+  <img src="README-images\input-question.PNG" alt="StepLast">
+</p>
 
 
 ___
@@ -16,7 +16,7 @@ First create an account where you must create a username, password ("Must includ
 </p>
 
 <p align="center">
-  <img src="README-images/login-up.PNG" alt="StepLast">
+  <img src="README-images/login-up.PNG" alt="Step1">
 </p>
 
 <p align="justify">
@@ -24,7 +24,7 @@ In login enter your username and password, click on the "Login" button.You can a
 </p>
 
 <p align="center">
-  <img src="README-images/login.PNG" alt="StepLast">
+  <img src="README-images/login.PNG" alt="Step2">
 </p>
 
 <p align="justify">
@@ -32,7 +32,7 @@ After logging in you will see the home screen where you will see your user name 
 </p>
 
 <p align="center">
-  <img src="README-images/home.PNG" alt="StepLast">
+  <img src="README-images/home.PNG" alt="Step3">
 </p>
 
 
@@ -41,11 +41,11 @@ In change password you can change your password and email if required.
 </p>
 
 <p align="center">
-  <img src="README-images/change-pasword.PNG" alt="StepLast">
+  <img src="README-images/change-pasword.PNG" alt="Step4">
 </p>
 
 <p align="center">
-  <img src="README-images/home.PNG" alt="StepLast">
+  <img src="README-images/home.PNG" alt="Step4">
 </p>
 
 
@@ -55,11 +55,11 @@ When you click on the "Chats" button (a table is created with the user), it show
 </p>
 
 <p align="center">
-  <img src="README-images/table-user-mysql.PNG" alt="StepLast">
+  <img src="README-images/table-user-mysql.PNG" alt="Step5">
 </p>
 
 <p align="center">
-  <img src="README-images/chat.PNG" alt="StepLast">
+  <img src="README-images/chat.PNG" alt="Step6">
 </p>
 
 <p align="justify">
@@ -68,19 +68,19 @@ When you enter a name to create the chat and click on the "Create chat" button (
 
 
 <p align="center">
-  <img src="README-images\create-chat.PNG" alt="StepLast">
+  <img src="README-images\create-chat.PNG" alt="Step7">
 </p>
 
 <p align="center">
-  <img src="README-images\chat-created.PNG" alt="StepLast">
+  <img src="README-images\chat-created.PNG" alt="Step8">
 </p>
 
 <p align="center">
-  <img src="README-images\table-user-chatname-mysql.PNG" alt="StepLast">
+  <img src="README-images\table-user-chatname-mysql.PNG" alt="Step9">
 </p>
 
 <p align="center">
-  <img src="README-images\inside-table-user.PNG" alt="StepLast">
+  <img src="README-images\inside-table-user.PNG" alt="Step10">
 </p>
 
 <p align="justify">
@@ -88,11 +88,15 @@ Once you have created your chat, you can enter in your input, your request to th
 </p>
 
 <p align="center">
-  <img src="README-images\input-question.PNG" alt="StepLast">
+  <img src="README-images\input-question.PNG" alt="Step11">
 </p>
 
 <p align="justify">
 In this case the AI response is random characters, but can be replaced using the chatgpt API or your own AI.You can also delete the chat if you wish.
+</p>
+
+<p align="center">
+  <img src="README-images\answer.PNG" alt="Step12">
 </p>
 
 
@@ -104,15 +108,15 @@ Using google API modify this with your "clientId", your "clientId" is in https:/
 
 Modify : "CLIENT_ID_APPIGOOLE" in Login.jsx  and Loginup.jsx
 <p align="center">
-  <img src="README-images\modify-client-id.PNG" alt="StepLast">
+  <img src="README-images\modify-client-id.PNG" alt="Stepgoogle">
 </p>
 
 <p align="center">
-  <img src="README-images\modify-client-id-2.PNG" alt="StepLast">
+  <img src="README-images\modify-client-id-2.PNG" alt="Stepgoogle2">
 </p>
 
 In this case with flask and React in https://console.cloud.google.com/ put this way.
 
 <p align="center">
-  <img src="README-images\example-appi-google.PNG" alt="StepLast">
+  <img src="README-images\example-appi-google.PNG" alt="Stepgoogle3">
 </p>
