@@ -32,37 +32,48 @@ function Chat() {
   }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     if (chatname === "") {
       window.alert("Please enter a chat name");
       return;
     }
+
     try {
-      const response = await fetch(`${API_URL}/tableuser/chats`, {
+      // 1. Create the chat table
+      await fetch(`${API_URL}/tableuser/chats`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
           user,
-          chatname
+          chatname,
         }),
       });
-      
-      setChatname('');
-      //GENERAR POST /tableuser/<user>
-      const response_chatname = await fetch(`${API_URL}/tableuser/${user}`, {
+
+      // 2. Register the chatname in table_user
+      await fetch(`${API_URL}/tableuser/${user}`, {
         method: "POST",
-        body: JSON.stringify({
-          chatname
-        }),
         headers: {
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          chatname,
+        }),
       });
-      setBtnName(chatname);
+
+      // 3. Update state
+      setBtnName(chatname);  // auto-select the new chat
+      setChatname("");
+
+      // ✅ 4. Refresh chatnames list
+      await getChatnames(user);
+
+      // ✅ 5. Optionally, load messages from new chat
+      await getChats(user, chatname);
 
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
 
@@ -85,15 +96,16 @@ function Chat() {
   //get chatnames
   
   const getChatnames = async (user) => {
+    console.log("getChatnames: ", user);
     const response = await fetch(`${API_URL}/tableuser/${user}`);
+    console.log(response);
     const data = await response.json();
     setChatsnames(data);
   };
 
   useEffect(() => {
     getChatnames(user);
-    
-  },  );
+  },[user]);
 
 
   useEffect(() => {
@@ -114,6 +126,8 @@ function Chat() {
     setIsLoadingChats(true); // Indicar que se está cargando la información
 
     try {
+      console.log(user);
+      console.log(btnname);
       const response_chats = await fetch(`${API_URL}/tableuser/chats/${user}/${btnname}`);
       const data_chats = await response_chats.json();
       setChats(data_chats);
