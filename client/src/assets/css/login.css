@@ -1,0 +1,115 @@
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background: #181a1b;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  padding: 40px 32px 32px 32px;
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo img {
+  display: block;
+  margin: 0 auto 16px auto;
+  border-radius: 12px;
+  background: #232526;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.loginContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #b0b3b8;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input {
+  background: #232526;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  margin-bottom: 0;
+}
+
+.input:focus {
+  border-color: #3498db;
+  background: #23272b;
+}
+
+.loginButton {
+  background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.15);
+}
+
+.loginButton:hover,
+.loginButton:focus {
+  background: linear-gradient(90deg, #2980b9 0%, #3498db 100%);
+}
+
+.errorMessage {
+  color: #e74c3c;
+  font-size: 0.95rem;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.registerLink {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.registerLink:hover,
+.registerLink:focus {
+  color: #5dade2;
+  text-decoration: underline;
+}

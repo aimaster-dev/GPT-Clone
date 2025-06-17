@@ -3,7 +3,6 @@
 Chat AI Flask + React + Mysql , with Flask REST API with sqlalchemy mysql where there is a login and registration and also you can login and register with google where each user can create chats to interact with artificial intelligence, in this case artificial intelligence is not implemented, but all the operation that I think is done at the time of implementing chats with AI is implemented, this saving the chats in databases where each user can delete and create chats at any time.
 </p>
 
-video how use :  [url video](https://youtu.be/sRkLmOVfKHo) 
 <p align="center">
   <img src="README-images\input-question.PNG" alt="StepLast">
 </p>
@@ -106,7 +105,7 @@ In this case the AI response is random characters, but can be replaced using the
 
 Using google API modify this with your "clientId", your "clientId" is in https://console.cloud.google.com/ if you don't know how to use it here  is an  [example](https://www.youtube.com/watch?v=HtJKUQXmtok) 
 
-Modify : "CLIENT_ID_APPIGOOLE" in Login.jsx  and Loginup.jsx
+Modify : "CLIENT_ID_APPIGOOLE" in Login.jsx  and register.jsx
 <p align="center">
   <img src="README-images\modify-client-id.PNG" alt="Stepgoogle">
 </p>
