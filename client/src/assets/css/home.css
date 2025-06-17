@@ -1,0 +1,144 @@
+.home-card {
+  background: #23272f;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  padding: 32px 24px;
+  margin-bottom: 24px;
+}
+
+.home-title {
+  font-size: 2.2rem;
+  color: #72bbdd;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-username {
+  color: #fff;
+  font-weight: 600;
+}
+
+.home-id {
+  color: #b0b8c1;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.home-id span {
+  color: #72bbdd;
+  font-weight: 500;
+}
+
+.home-btn {
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  background: #72bbdd;
+  color: #23272f;
+}
+.home-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-btn.logout {
+  background: #e57373;
+  color: #fff;
+}
+
+.home-btn.logout:hover {
+  background: #c62828;
+}
+
+.home-btn.change-password {
+  background: #ffd54f;
+  color: #23272f;
+}
+
+.home-btn.change-password:hover {
+  background: #ffb300;
+}
+
+.home-btn.delete-account {
+  background: #ff8a65;
+  color: #fff;
+}
+
+.home-btn.delete-account:hover {
+  background: #d84315;
+}
+
+.home-btn.chats {
+  background: #81c784;
+  color: #23272f;
+}
+
+.home-btn.chats:hover {
+  background: #388e3c;
+  color: #fff;
+}
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: rgba(34, 34, 34, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+
+.home-container h2 {
+  color: #72bbdd;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.home-container p {
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.home-container .home-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.darkTheme {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.darkTheme h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: aquamarine;
+}
+
+.darkTheme button {
+  background-color: #fff;
+  color: #222;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.darkTheme button:hover {
+  background-color: #72bbdd;
+}

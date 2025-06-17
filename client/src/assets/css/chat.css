@@ -1,0 +1,332 @@
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  transition: background 0.5s;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383838;
+  border-radius: 8px;
+}
+
+a,
+.go-home-link {
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.go-home-link {
+  text-shadow: 0 2px 8px #61dafb44;
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #61dafb 30%, #21a1f3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 12px #21a1f344;
+}
+
+.column {
+  box-shadow: 0 4px 24px #0004, 0 1.5px 6px #21a1f322;
+  border: 1px solid #292929;
+  backdrop-filter: blur(2px);
+  transition: box-shadow 0.3s;
+}
+
+.column:hover {
+  box-shadow: 0 8px 32px #21a1f355, 0 2px 8px #0002;
+}
+
+.input-createname,
+.input-user {
+  box-shadow: 0 1px 4px #21a1f322;
+  transition: box-shadow 0.2s, outline 0.2s;
+}
+
+.input-createname:focus,
+.input-user:focus {
+  box-shadow: 0 2px 8px #61dafb55;
+}
+
+.btn-create-name,
+.btn-send {
+  box-shadow: 0 2px 8px #61dafb33;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-create-name:active,
+.btn-send:active {
+  transform: scale(0.97);
+}
+
+.btn-chats {
+  border: 1px solid #383838;
+  box-shadow: 0 1px 4px #0002;
+}
+
+.btn-chats.selected,
+.btn-chats:active {
+  background: linear-gradient(90deg, #61dafb 60%, #21a1f3 100%);
+  color: #181818;
+  font-weight: bold;
+}
+
+.btn-delete-chat {
+  box-shadow: 0 1px 4px #ff4d4f44;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-delete-chat:active {
+  transform: scale(0.92);
+}
+
+.view-chat {
+  background: rgba(35, 35, 35, 0.95);
+  border: 1px solid #292929;
+  box-shadow: 0 4px 24px #21a1f322;
+  animation: fadeIn 0.7s;
+}
+
+.view-chat p {
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #232323 80%, #292929 100%);
+  box-shadow: 0 1px 4px #0001;
+  margin-bottom: 0.3rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.input {
+  background: rgba(35, 35, 35, 0.85);
+  border-radius: 8px;
+  box-shadow: 0 1px 6px #21a1f322;
+  padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .view-chat {
+    padding: 0.5rem;
+  }
+}
+
+.dark-theme {
+  background: #181818;
+  color: #f1f1f1;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.go-home-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.go-home-link:hover {
+  color: #21a1f3;
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.column {
+  min-width: 220px;
+  background: #232323;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px #0002;
+}
+
+.column-create {
+  margin-bottom: 1.5rem;
+}
+
+.input-createname {
+  width: 90%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 0.5rem;
+  background: #292929;
+  color: #f1f1f1;
+}
+
+.input-createname:focus {
+  outline: 2px solid #61dafb;
+}
+
+.btn-create-name {
+  background: #61dafb;
+  color: #181818;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-create-name:hover {
+  background: #21a1f3;
+}
+
+.column-chats {
+  margin-top: 1rem;
+}
+
+.btn-chats {
+  background: #292929;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.btn-chats:hover,
+.btn-chats:focus {
+  background: #383838;
+}
+
+.btn-delete-chat {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 0.2rem;
+  transition: background 0.2s;
+}
+
+.btn-delete-chat:hover {
+  background: #d9363e;
+}
+
+.view-chat {
+  background: #232323;
+  min-height: 350px;
+  max-height: 350px;
+  width: 420px;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px #0002;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.view-chat p {
+  margin: 0.2rem 0;
+  word-break: break-word;
+}
+
+.input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.input-user {
+  width: 340px;
+  min-height: 40px;
+  max-height: 100px;
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem;
+  background: #292929;
+  color: #f1f1f1;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+.input-user:focus {
+  outline: 2px solid #61dafb;
+}
+
+.btn-send {
+  background: #61dafb;
+  color: #181818;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.btn-send:hover {
+  background: #21a1f3;
+}
+
+.btn-chats.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .view-chat {
+    width: 100%;
+    min-width: 0;
+    max-width: 100vw;
+  }
+
+  .input-user {
+    width: 100%;
+    min-width: 0;
+    max-width: 100vw;
+  }
+}
